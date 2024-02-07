@@ -1,25 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-        <div>
-            <button><a href="index.html">Back</a></button>
+        <div class="menu">
+            <div class="left-menu">
+                    <h1>SNEAKERS</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Collection</a></li>
+                        <li><a href="#">Adult</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right-menu">
+                <a href="index.html" class="back-home">Back to home</a>
+                <a href="#" class="cart-menu"><img src="assets/img/cart-nav.svg" alt="cart"></a>
+                <a href="#" class="icon-avatar"><img src="assets/img/avatar.svg" alt="icon avatar"></a>
+            </div>
         </div>
+        <div class="line"></div>
     </header>
     <main>
-        <div>
+        <div class="contact-container">
+        <div class="left-contact">
             <h1>Contact Us</h1>
-            <form action="#">
+            <form action="#" class="form">
+                <label>Name</label>
                 <input type="text" name="name" placeholder="Enter your name" required>
+                <label>Email</label>
                 <input type="email" name="email" placeholder="Enter your email" required>
-                <textarea name="message" placeholder="Type your message" rows="10"></textarea> 
-                <button type="submit">Send message</button>
+                <label>Message</label>
+                <textarea name="message" placeholder="Type your message" rows="10" style="resize: none"></textarea> 
             </form>
+            <button class="button-contact" type="submit">Send message</button>
+        </div>
+        <div class="right-contact">
+            <img src="assets/img/symbol.png" alt="">
+        </div>
         </div>
     </main>
 </body>
