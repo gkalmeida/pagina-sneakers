@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Protest Strike', sans-serif;
+}
+
+/****** Page HTML ******/
+
+::-webkit-scrollbar {
+    display: none;
+    }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 85px;
+}
+
+.left-menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: rgb(44, 72, 165);
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.right-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cart-menu img {
+    width: 30px;
+}
+
+.icon-avatar img {
+    width: 50px;
+}
+
+.line {
+    height: 1px;
+    background-color: rgb(44, 72, 165);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 85px);
+    gap: 50px;
+    background-color: rgb(246, 255, 255);
+}
+
+.left-side-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.items {
+    align-self: flex-end;
+}
+
+.select-image {
+    max-width: 330px;
+}
+
+.select-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 330px;
+    gap: 10px;
+}
+
+.images img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right-side-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h5 {
+    color: rgb(44, 72, 165);
+}
+
+.content p {
+    text-align: justify;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.price-off {
+    text-decoration: line-through;
+    color: rgb(107, 112, 128);
+    font-size: 17px;
+}
+
+.options {
+    display: flex;
+    gap: 20px;
+}
+
+.amount {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(44, 72, 165);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.amount-number {
+    color: rgb(255, 255, 255);
+}
+
+.minus img, .add img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(44, 72, 165);
+    color: rgb(255, 255, 255);
+    padding: 10px 35px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.button img {
+    width: 20px;
+}
+
+/****** Page Contact ******/
+
+.back-home {
+    text-decoration: none;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 85px);
+}
+
+.left-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+
+.button-contact {
+    background-color: rgb(44, 72, 165);
+    color: rgb(255, 255, 255);
+    padding: 10px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.right-contact img {
+    width: 400px;
+}
