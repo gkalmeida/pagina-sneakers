@@ -37,18 +37,23 @@
             <h1>Contact Us</h1>
             <form action="#" class="form">
                 <label>Name</label>
-                <input type="text" name="name" placeholder="Enter your name" required>
+                <input id="name" type="text" name="name" placeholder="Enter your name" required onkeyup="validarNome()">
+                <div id="text-name"></div>
                 <label>Email</label>
-                <input type="email" name="email" placeholder="Enter your email" required>
+                <input id="email" type="email" name="email" placeholder="Enter your email" required onkeyup="validarEmail()">
+                <div id="text-email"></div>
                 <label>Message</label>
-                <textarea name="message" placeholder="Type your message" rows="10" style="resize: none"></textarea> 
+                <textarea id="message" name="message" placeholder="Type your message" rows="10" style="resize: none" onkeyup="validarMensagem()"></textarea> 
+                <div id="text-message"></div>
             </form>
-            <button class="button-contact" type="submit">Send message</button>
+            <button class="button-contact" type="submit" onclick="enviar()">Send message</button>
         </div>
         <div class="right-contact">
             <img src="assets/img/symbol.png" alt="">
         </div>
         </div>
     </main>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
